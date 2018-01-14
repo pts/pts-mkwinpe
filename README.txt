@@ -10,5 +10,7 @@ pts-mkwinpe: Shell scripts for Linux to build bootable Windows PE .iso images fo
   Wants to download wimsetup.exe (doesn't work on Linux)
 * Maybe programs/mkwinpeimg from https://wimlib.net/downloads/wimlib-1.12.0.tar.gz can do it given a Windows install .iso.
   They use this tool: wimlib-imagex export "$windows_dir"/sources/boot.wim 2 --boot "$output_boot_wim"
+* The output of genisoimage is not reproducible: it creates a different .iso
+  file when run again on the same input.
 
 __END__

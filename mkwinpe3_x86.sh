@@ -1,4 +1,5 @@
 #! /bin/bash --
+#
 # by pts@fazekas.hu at Sun Jan 14 00:54:30 CET 2018
 #
 # This shell script builds winpe3_x86.iso, which is Windows PE 3.0, which
